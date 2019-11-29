@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserSetup {
 
-    WebDriver driver;
+   public static WebDriver driver;
 
     @Before
     public void setup(){
@@ -33,8 +33,6 @@ public class BrowserSetup {
     @Given("Website is opened")
     public void website_is_opened() {
         driver.get("http://twitter.com/login");
-        WebElement cookieCloser = Browser.driver.findElement(By.xpath("//div[@id=\"cookiedivCloser\"]"));
-        cookieCloser.click();
     }
 
 }
