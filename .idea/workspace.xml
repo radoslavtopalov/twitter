@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671ead6d-30cf-4566-b2d4-de868c476e8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Tweets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/BrowserSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Tweets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Tweets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,10 +97,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: sggf" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Login.feature" />
+      <option name="GLUE" value="FeaturesImplementation" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="twitter" />
+      <option name="NAME_FILTER" value="^sggf$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^sggf$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: sggf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Login with valid credentials" />
         <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="Cucumber java.Scenario: sggf" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +142,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

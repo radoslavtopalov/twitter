@@ -9,6 +9,6 @@ public class Login {
         BrowserSetup.driver.findElement(By.xpath("//input[@placeholder='Phone, email or username']")).sendKeys(username);
         BrowserSetup.driver.findElement(By.xpath("//input[@class='js-password-field']")).sendKeys(password);
         BrowserSetup.driver.findElement(By.xpath("//button[@type='submit']")).click();
-        BrowserSetup.driver.navigate().refresh();
+        //BrowserSetup.driver.navigate().refresh();
     }
 }

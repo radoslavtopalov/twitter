@@ -17,7 +17,7 @@ public class BrowserSetup {
 
     @Before
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Radoslav.to\\Desktop\\Automation\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized", "--disable-extensions");
         options.addArguments("--disable-notifications");
