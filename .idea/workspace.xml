@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671ead6d-30cf-4566-b2d4-de868c476e8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/BrowserSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Tweets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeaturesImplementation/Tweets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
